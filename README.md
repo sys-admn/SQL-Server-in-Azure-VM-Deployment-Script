@@ -10,7 +10,7 @@ The script performs the following tasks:
 3. Allocates a public IP address for VM accessibility
 4. Implements network security group with SQL and RDP access rules
 5. Creates and configures network interface for VM connectivity
-6. Deploys a virtual machine with SQL Server installation
+6. Deploys a virtual machine with SQL Server installationR
 7. Provides guidance for establishing remote desktop connection
 ![Architecture Diagram](/Resource-Visualizer.png)
 ## Prerequisites
@@ -56,3 +56,4 @@ Connect-AzAccount
 After deployment, you can connect to the SQL Server VM using:
 - Remote Desktop Protocol (RDP) to the VM's public IP address
 - SQL Server Management Studio using the VM's public IP address and port 1433
+![SSMS](/InstanceSQL.png)
