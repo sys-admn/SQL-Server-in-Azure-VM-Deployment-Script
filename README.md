@@ -12,7 +12,7 @@ The script performs the following tasks:
 5. Creates and configures network interface for VM connectivity
 6. Deploys a virtual machine with SQL Server installation
 7. Provides guidance for establishing remote desktop connection
-
+![Architecture Diagram](/Resource-Visualizer.png)
 ## Prerequisites
 
 - Azure PowerShell module installed
